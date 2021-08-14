@@ -4,6 +4,7 @@ const currentPrice = document.querySelector("#current-price");
 const stockBtn = document.querySelector("#stock-btn");
 const outputEl = document.querySelector("#outputEl");
 
+console.log("hi")
 function calculateProfitAndLoss(initial, quantity, current) {
     if (initial > current) {
         var loss = (initial-current) * quantity;

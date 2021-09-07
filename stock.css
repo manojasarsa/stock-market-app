@@ -8,13 +8,7 @@ body{
 
 h1{
     text-align: center;
-    padding: 2rem;
-    
-}
-
-main{
-    background-color: #322514;
-    padding: 1rem;
+    padding: 2rem; 
 }
 label {
     display: block;

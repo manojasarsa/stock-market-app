@@ -2,23 +2,25 @@
 
 body{
     font-family: 'Source Serif Pro', serif;
-    background-color: #6366F1;
+    background-image: url("images/stock1.jpg");
+    background-size: cover;
 }
 
 h1{
     text-align: center;
     padding: 2rem;
-    background-color: ;
+    
 }
 
 main{
-    background-color: salmon;
+    background-color: #322514;
     padding: 1rem;
 }
 label {
     display: block;
     text-align: center;
     padding: 1rem;
+    color: black;
 }
 
 button{
@@ -36,10 +38,11 @@ button:hover {
     color: white
 }
 
-#output {
+#outputEl {
     margin: auto;
     padding: 1rem;
     text-align: center;
     width: 50%;
+    font-size: x-large;
 }
 

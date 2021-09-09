@@ -2,13 +2,15 @@
 
 body{
     font-family: 'Source Serif Pro', serif;
-    background-image: url("images/stock1.jpg");
-    background-size: cover;
+    font-weight: bold;
+    background-color: #f0d7d7;
+    /* background-image: url("images/stock1.jpg");
+    background-size: cover; */
 }
 
 h1{
     text-align: center;
-    padding: 2rem; 
+    padding: 1rem; 
 }
 label {
     display: block;
@@ -22,14 +24,14 @@ button{
     text-align: center;
     margin: auto;
     margin-top: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.1rem 1rem;
     font-family: 'Source Serif Pro', serif;
-    font-size: larger;
+    font-size: large;
 }
 
 button:hover {
-    background-color: black;
-    color: white
+    background-color: #F38C8C;
+    color: black;
 }
 
 #outputEl {
@@ -37,6 +39,41 @@ button:hover {
     padding: 1rem;
     text-align: center;
     width: 50%;
-    font-size: x-large;
+    font-size: large;
+}
+.hero {
+    padding: 2rem;
+    padding-top: 2rem;
 }
 
+.hero .hero-img {
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+ 
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .h2-hero-heading {
+    text-align: center;
+    color: var(--dark-gray);
+    padding: 0rem;
+    margin-top: 0rem;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: #d14949;
+}
+
+.stock-para .heading-inverted {
+    color: #d14949;
+}
+.stock-para{
+    text-align: center;
+    font-size: large;
+}

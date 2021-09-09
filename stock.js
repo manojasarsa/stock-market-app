@@ -36,10 +36,12 @@ function submitHandler() {
     if ( ip > 0 && qty > 0 && curr > 0) {
         calculateProfitAndLoss(ip,qty,curr);
     }
-    else {
-        outputEl.innerText = "Please enter valid values."
+    else if ( ip < 0 || qty < 0 || curr < 0){
+        outputEl.innerText = "Please enter positive values."
     }
-    
+    else {
+        outputEl.innerText = "Please enter all three values."
+    }
 }
 
 stockBtn.addEventListener("click",submitHandler);
